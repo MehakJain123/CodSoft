@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>VogueVista</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+<section id="header">
+    <div class="container">
+        <nav>
+            <div class="logo"><h1>VogueVista</h1></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn"><img src="./images/lppic.png" alt="" /></div>
+        </nav>
+
+    <div class="header-content">
+    <h1>VogueVista</h1>
+    <p>Fashion that Stands Out</p>
+    <button class="primary-btn">EXPLORE</button>
+    </div>
+    </div>
+</section>
+
+<section id="services" class="container">
+    <div class="service">
+        <img src="./images/Service1.jfif" alt="" />
+        <h1>Western</h1>
+        <p>
+            Elevate your style with our curated 
+            collection of timeless Western wear.
+        </p>
+    </div>
+    <div class="service">
+        <img src="./images/Service2.jfif" alt="" />
+        <h1>Ethnic</h1>
+        <p>
+            Discover the essence of heritage
+            with our stunning ethnic wear.
+        </p>
+    </div>
+    <div class="service">
+        <img src="./images/Service3.jfif" alt="" />
+        <h1>Accessories</h1>
+        <p>
+            Discover the perfect finishing touches
+            with our exclusive accessories range.
+        </p>
+    </div>
+</section>
+
+<section id="services" class="container">
+
+</section>
+
+<section id="about" class="container">
+    <div class="about-content">
+        <h1>About Us</h1>
+        <p>
+Welcome to VogueVista, where fashion meets artistry.
+We are dedicated to bringing you a thoughtfully curated selection of clothing that combines timeless elegance with contemporary trends.
+Our team meticulously handpicks each piece to ensure exceptional quality and style, aiming to empower you with confidence and individuality.
+Whether you're seeking the perfect outfit for a special occasion or everyday sophistication, we're here to inspire and elevate your wardrobe.
+        </p>
+    </div>
+    <div class="about-img">
+        <img src="./images/About.jfif" alt=""/>
+    </div>
+</section>
+
+<section id="talk-to-us">
+    <div class="talk-to-us-content">
+        <h1>TALK TO US</h1>
+        <p>
+            Have any questions? Our customer care are always open to help you!!
+        Join us on a journey of style and discover the difference of truly exceptional fashion.
+    </p>
+        <button class="primary-btn">GET IN TOUCH</button>
+    </div>
+</section>
+
+<footer>
+<ul class="footerlinks">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact Us</a></li>
+</ul>
+<h1 class="logo">VogueVista</h1>
+<p>@2024 VogueVista. All right reserved.</p>
+</footer>
+<script>
+const menuBtn = document.querySelector('.menu-btn')
+const navLinks = document.querySelector('.nav-links')
+
+menuBtn.addEventListener('click', function(){
+    navLinks.classList.toggle('active');
+});
+</script>
+</body>
+</html>
